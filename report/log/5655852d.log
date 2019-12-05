@@ -1,0 +1,99 @@
+2019-09-07 08:44:01:096 [Appium] Welcome to Appium v1.10.0
+2019-09-07 08:44:01:098 [Appium] Non-default server args:
+2019-09-07 08:44:01:099 [Appium]   port: 4000
+2019-09-07 08:44:01:099 [Appium]   bootstrapPort: 4500
+2019-09-07 08:44:01:100 [Appium]   sessionOverride: true
+2019-09-07 08:44:01:100 [Appium]   logFile: D:\Job\python\Script\Lipei_app\report\log\5655852d.log
+2019-09-07 08:44:01:101 [Appium]   udid: 5655852d
+2019-09-07 08:44:01:102 [Appium]   noReset: true
+2019-09-07 08:44:01:102 [Appium] Deprecated server args:
+2019-09-07 08:44:01:103 [Appium]   -U,--udid => --default-capabilities '{"udid":"5655852d"}'
+2019-09-07 08:44:01:103 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-09-07 08:44:01:104 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-09-07 08:44:01:104 [Appium]   udid: 5655852d
+2019-09-07 08:44:01:104 [Appium]   noReset: true
+2019-09-07 08:44:01:179 [Appium] Appium REST http interface listener started on 0.0.0.0:4000
+2019-09-07 08:44:12:225 [HTTP] --> POST /wd/hub/session
+2019-09-07 08:44:12:225 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:unicodeKeyboard":"true","appium:deviceName":"5655852d","appium:noReset":"true","appium:appPackage":"com.sina.weibo","appium:appActivity":"com.sina.weibo.SplashActivity"}]},"desiredCapabilities":{"platformName":"Android","unicodeKeyboard":"true","deviceName":"5655852d","noReset":"true","appPackage":"com.sina.weibo","appActivity":"com.sina.weibo.SplashActivity"}}
+2019-09-07 08:44:12:228 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","unicodeKeyboard":"true","deviceName":"5655852d","noReset":"true","appPackage":"com.sina.weibo","appActivity":"com.sina.weibo.SplashActivity"},null,{"firstMatch":[{"platformName":"Android","appium:unicodeKeyboard":"true","appium:deviceName":"5655852d","appium:noReset":"true","appium:appPackage":"com.sina.weibo","appium:appActivity":"com.sina.weibo.SplashActivity"}]}]
+2019-09-07 08:44:12:229 [BaseDriver] Event 'newSessionRequested' logged at 1567845852229 (16:44:12 GMT+0800 (GMT+08:00))
+2019-09-07 08:44:12:235 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2019-09-07 08:44:12:240 [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2019-09-07 08:44:12:241 [Appium] Creating new AndroidDriver (v4.7.0) session
+2019-09-07 08:44:12:242 [Appium] Capabilities:
+2019-09-07 08:44:12:242 [Appium]   platformName: Android
+2019-09-07 08:44:12:242 [Appium]   udid: 5655852d
+2019-09-07 08:44:12:242 [Appium]   unicodeKeyboard: true
+2019-09-07 08:44:12:243 [Appium]   deviceName: 5655852d
+2019-09-07 08:44:12:243 [Appium]   noReset: true
+2019-09-07 08:44:12:243 [Appium]   appPackage: com.sina.weibo
+2019-09-07 08:44:12:243 [Appium]   appActivity: com.sina.weibo.SplashActivity
+2019-09-07 08:44:12:249 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"udid":"5655852d","noReset... were provided
+2019-09-07 08:44:12:249 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-09-07 08:44:12:252 [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2019-09-07 08:44:12:252 [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2019-09-07 08:44:12:257 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-09-07 08:44:12:257 [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-09-07 08:44:12:262 [BaseDriver] Session created with session id: 266761db-5b25-4ea7-9231-166dc9394320
+2019-09-07 08:44:12:509 [AndroidDriver] Java version is: 1.8.0_191
+2019-09-07 08:44:12:514 [ADB] Checking whether adb is present
+2019-09-07 08:44:12:526 [ADB] Found 2 'build-tools' folders under 'D:\Job\SDK' (newest first):
+2019-09-07 08:44:12:527 [ADB]     D:/Job/SDK/build-tools/29.0.0-rc2
+2019-09-07 08:44:12:527 [ADB]     D:/Job/SDK/build-tools/28.0.3
+2019-09-07 08:44:12:528 [ADB] Using adb.exe from D:\Job\SDK\platform-tools\adb.exe
+2019-09-07 08:44:12:529 [AndroidDriver] Retrieving device list
+2019-09-07 08:44:12:529 [ADB] Trying to find a connected android device
+2019-09-07 08:44:12:530 [ADB] Getting connected devices...
+2019-09-07 08:44:12:654 [ADB] 1 device(s) connected
+2019-09-07 08:44:12:655 [AndroidDriver] Using device: 5655852d
+2019-09-07 08:44:12:656 [ADB] Setting device id to 5655852d
+2019-09-07 08:44:12:659 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell getprop ro.build.version.sdk'
+2019-09-07 08:44:12:833 [ADB] Current device property 'ro.build.version.sdk': 25
+2019-09-07 08:44:12:834 [ADB] Device API level: 25
+2019-09-07 08:44:12:834 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-09-07 08:44:12:835 [AndroidDriver] App file was not listed, instead we're going to run com.sina.weibo directly on the device
+2019-09-07 08:44:12:836 [AndroidDriver] Checking whether package is present on the device
+2019-09-07 08:44:12:836 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell pm list packages com.sina.weibo'
+2019-09-07 08:44:14:057 [AndroidDriver] Starting Android session
+2019-09-07 08:44:14:058 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d wait-for-device'
+2019-09-07 08:44:14:164 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell echo ping'
+2019-09-07 08:44:14:293 [AndroidDriver] Pushing settings apk to device...
+2019-09-07 08:44:14:295 [ADB] Getting install status for io.appium.settings
+2019-09-07 08:44:14:296 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell dumpsys package io.appium.settings'
+2019-09-07 08:44:14:463 [ADB] 'io.appium.settings' is not installed
+2019-09-07 08:44:14:464 [ADB] App 'C:\Users\SH\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.11.0@io.appium.settings\apks\settings_apk-debug.apk' is not installed
+2019-09-07 08:44:14:464 [ADB] Installing 'C:\Users\SH\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.11.0@io.appium.settings\apks\settings_apk-debug.apk'
+2019-09-07 08:44:14:465 [ADB] Device API level: 25
+2019-09-07 08:44:14:466 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d install -g C\:\\Users\\SH\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_io.appium.settings\@2.11.0\@io.appium.settings\\apks\\settings_apk-debug.apk'
+2019-09-07 08:44:14:663 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d install -g C\:\\Users\\SH\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_io.appium.settings\@2.11.0\@io.appium.settings\\apks\\settings_apk-debug.apk'
+2019-09-07 08:44:14:813 [AndroidDriver] Ignored error while installing Appium Settings helper: 'Error executing adbExec. Original error: 'Command 'D\:\\Job\\SDK\\platform-tools\\adb.exe -P 5037 -s 5655852d install -g C\:\\Users\\SH\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_io.appium.settings\@2.11.0\@io.appium.settings\\apks\\settings_apk-debug.apk' exited with code 1'; Stderr: 'adb: failed to install C:\Users\SH\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.11.0@io.appium.settings\apks\settings_apk-debug.apk: Security exception: You need the android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS permission to use the PackageManager.INSTALL_GRANT_RUNTIME_PERMISSIONS flag
+2019-09-07 08:44:14:814 [AndroidDriver] 
+2019-09-07 08:44:14:814 [AndroidDriver] java.lang.SecurityException: You need the android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS permission to use the PackageManager.INSTALL_GRANT_RUNTIME_PERMISSIONS flag
+2019-09-07 08:44:14:814 [AndroidDriver] 	at com.android.server.pm.PackageInstallerService.createSessionInternal(PackageInstallerService.java:601)
+2019-09-07 08:44:14:815 [AndroidDriver] 	at com.android.server.pm.PackageInstallerService.createSession(Package'; Code: '1''. Manually uninstalling the application with package id 'io.appium.settings' may help. Expect some Appium features may not work as expected unless this problem is fixed.
+2019-09-07 08:44:14:816 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell ps'
+2019-09-07 08:44:15:038 [ADB] Device API level: 25
+2019-09-07 08:44:15:039 [ADB] Device API level: 25
+2019-09-07 08:44:15:040 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-09-07 08:44:16:137 [AndroidDriver] Failed to launch settings app: Cannot start the 'io.appium.settings' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.Settings' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity
+2019-09-07 08:44:16:137 [ADB] Device API level: 25
+2019-09-07 08:44:16:138 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell appops set io.appium.settings android\:mock_location allow'
+2019-09-07 08:44:16:303 [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-09-07 08:44:16:304 [AndroidDriver] Got language: 'null' and country: 'null'
+2019-09-07 08:44:16:305 [Logcat] Starting logcat capture
+2019-09-07 08:44:16:478 [AndroidDriver] Enabling Unicode keyboard support
+2019-09-07 08:44:16:479 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell settings get secure default_input_method'
+2019-09-07 08:44:17:702 [AndroidDriver] Unsetting previous IME com.sohu.inputmethod.sogou.xiaomi/.SogouIME
+2019-09-07 08:44:17:702 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-09-07 08:44:17:703 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell ime enable io.appium.settings/.UnicodeIME'
+2019-09-07 08:44:18:791 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell ime enable io.appium.settings/.UnicodeIME'
+2019-09-07 08:44:19:846 [AndroidDriver] Shutting down Android driver
+2019-09-07 08:44:19:847 [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2019-09-07 08:44:19:848 [Logcat] Stopping logcat capture
+2019-09-07 08:44:19:855 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 5655852d shell am force-stop io.appium.unlock'
+2019-09-07 08:44:20:914 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-09-07 08:44:20:915 [BaseDriver] Event 'newSessionStarted' logged at 1567845860915 (16:44:20 GMT+0800 (GMT+08:00))
+2019-09-07 08:44:20:926 [W3C] Encountered internal error running command: Error: Error executing adbExec. Original error: 'Command 'D\:\\Job\\SDK\\platform-tools\\adb.exe -P 5037 -s 5655852d shell ime enable io.appium.settings/.UnicodeIME' exited with code 4294967177'; Stderr: ''; Code: '4294967177'
+2019-09-07 08:44:20:927 [W3C]     at execFunc (C:\Users\SH\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-adb@6.29.1@appium-adb\lib\tools\system-calls.js:326:13)
+2019-09-07 08:44:20:950 [HTTP] <-- POST /wd/hub/session 500 8722 ms - 1065
+2019-09-07 08:44:20:951 [HTTP] 

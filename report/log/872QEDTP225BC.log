@@ -1,0 +1,168 @@
+2019-09-11 04:29:29:376 [Appium] Welcome to Appium v1.10.0
+2019-09-11 04:29:29:378 [Appium] Non-default server args:
+2019-09-11 04:29:29:379 [Appium]   port: 4000
+2019-09-11 04:29:29:379 [Appium]   bootstrapPort: 4501
+2019-09-11 04:29:29:379 [Appium]   sessionOverride: true
+2019-09-11 04:29:29:380 [Appium]   logFile: D:\Job\python\Script\Lipei_app\report\log\872QEDTP225BC.log
+2019-09-11 04:29:29:380 [Appium]   udid: 872QEDTP225BC
+2019-09-11 04:29:29:380 [Appium]   noReset: true
+2019-09-11 04:29:29:381 [Appium] Deprecated server args:
+2019-09-11 04:29:29:381 [Appium]   -U,--udid => --default-capabilities '{"udid":"872QEDTP225BC"}'
+2019-09-11 04:29:29:382 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-09-11 04:29:29:382 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-09-11 04:29:29:382 [Appium]   udid: 872QEDTP225BC
+2019-09-11 04:29:29:382 [Appium]   noReset: true
+2019-09-11 04:29:29:464 [Appium] Appium REST http interface listener started on 0.0.0.0:4000
+2019-09-11 04:29:37:994 [HTTP] --> POST /wd/hub/session
+2019-09-11 04:29:37:994 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:unicodeKeyboard":"true","appium:deviceName":"872QEDTP225BC","appium:noReset":"true","appium:appPackage":"com.sina.weibo","appium:appActivity":"com.sina.weibo.SplashActivity"}]},"desiredCapabilities":{"platformName":"Android","unicodeKeyboard":"true","deviceName":"872QEDTP225BC","noReset":"true","appPackage":"com.sina.weibo","appActivity":"com.sina.weibo.SplashActivity"}}
+2019-09-11 04:29:37:997 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","unicodeKeyboard":"true","deviceName":"872QEDTP225BC","noReset":"true","appPackage":"com.sina.weibo","appActivity":"com.sina.weibo.SplashActivity"},null,{"firstMatch":[{"platformName":"Android","appium:unicodeKeyboard":"true","appium:deviceName":"872QEDTP225BC","appium:noReset":"true","appium:appPackage":"com.sina.weibo","appium:appActivity":"com.sina.weibo.SplashActivity"}]}]
+2019-09-11 04:29:37:999 [BaseDriver] Event 'newSessionRequested' logged at 1568176177998 (12:29:37 GMT+0800 (GMT+08:00))
+2019-09-11 04:29:38:003 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2019-09-11 04:29:38:007 [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2019-09-11 04:29:38:009 [Appium] Creating new AndroidDriver (v4.7.0) session
+2019-09-11 04:29:38:009 [Appium] Capabilities:
+2019-09-11 04:29:38:009 [Appium]   platformName: Android
+2019-09-11 04:29:38:010 [Appium]   udid: 872QEDTP225BC
+2019-09-11 04:29:38:010 [Appium]   unicodeKeyboard: true
+2019-09-11 04:29:38:010 [Appium]   deviceName: 872QEDTP225BC
+2019-09-11 04:29:38:010 [Appium]   noReset: true
+2019-09-11 04:29:38:011 [Appium]   appPackage: com.sina.weibo
+2019-09-11 04:29:38:011 [Appium]   appActivity: com.sina.weibo.SplashActivity
+2019-09-11 04:29:38:016 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"udid":"872QEDTP225BC","no... were provided
+2019-09-11 04:29:38:016 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-09-11 04:29:38:019 [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2019-09-11 04:29:38:019 [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2019-09-11 04:29:38:023 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-09-11 04:29:38:023 [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-09-11 04:29:38:028 [BaseDriver] Session created with session id: ca3f7b29-747e-4e72-8d04-6a5975f62283
+2019-09-11 04:29:38:270 [AndroidDriver] Java version is: 1.8.0_191
+2019-09-11 04:29:38:275 [ADB] Checking whether adb is present
+2019-09-11 04:29:38:288 [ADB] Found 2 'build-tools' folders under 'D:\Job\SDK' (newest first):
+2019-09-11 04:29:38:288 [ADB]     D:/Job/SDK/build-tools/29.0.0-rc2
+2019-09-11 04:29:38:288 [ADB]     D:/Job/SDK/build-tools/28.0.3
+2019-09-11 04:29:38:289 [ADB] Using adb.exe from D:\Job\SDK\platform-tools\adb.exe
+2019-09-11 04:29:38:290 [AndroidDriver] Retrieving device list
+2019-09-11 04:29:38:291 [ADB] Trying to find a connected android device
+2019-09-11 04:29:38:292 [ADB] Getting connected devices...
+2019-09-11 04:29:38:437 [ADB] 1 device(s) connected
+2019-09-11 04:29:38:438 [AndroidDriver] Using device: 872QEDTP225BC
+2019-09-11 04:29:38:440 [ADB] Setting device id to 872QEDTP225BC
+2019-09-11 04:29:38:442 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell getprop ro.build.version.sdk'
+2019-09-11 04:29:38:644 [ADB] Current device property 'ro.build.version.sdk': 27
+2019-09-11 04:29:38:645 [ADB] Device API level: 27
+2019-09-11 04:29:38:645 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2019-09-11 04:29:38:646 [AndroidDriver] App file was not listed, instead we're going to run com.sina.weibo directly on the device
+2019-09-11 04:29:38:646 [AndroidDriver] Checking whether package is present on the device
+2019-09-11 04:29:38:647 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell pm list packages com.sina.weibo'
+2019-09-11 04:29:39:361 [AndroidDriver] Starting Android session
+2019-09-11 04:29:39:362 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC wait-for-device'
+2019-09-11 04:29:39:478 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell echo ping'
+2019-09-11 04:29:39:640 [AndroidDriver] Pushing settings apk to device...
+2019-09-11 04:29:39:641 [ADB] Getting install status for io.appium.settings
+2019-09-11 04:29:39:642 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell dumpsys package io.appium.settings'
+2019-09-11 04:29:39:844 [ADB] 'io.appium.settings' is installed
+2019-09-11 04:29:39:845 [ADB] Getting package info for 'io.appium.settings'
+2019-09-11 04:29:39:845 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell dumpsys package io.appium.settings'
+2019-09-11 04:29:40:195 [ADB] Checking whether aapt is present
+2019-09-11 04:29:40:199 [ADB] Using aapt.exe from D:\Job\SDK\build-tools\29.0.0-rc2\aapt.exe
+2019-09-11 04:29:40:499 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+2019-09-11 04:29:40:501 [ADB] There is no need to install/upgrade 'C:\Users\SH\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.11.0@io.appium.settings\apks\settings_apk-debug.apk'
+2019-09-11 04:29:40:503 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell ps'
+2019-09-11 04:29:40:974 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-09-11 04:29:40:976 [ADB] Device API level: 27
+2019-09-11 04:29:40:977 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell appops set io.appium.settings android\:mock_location allow'
+2019-09-11 04:29:41:380 [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2019-09-11 04:29:41:380 [AndroidDriver] Got language: 'null' and country: 'null'
+2019-09-11 04:29:41:382 [Logcat] Starting logcat capture
+2019-09-11 04:29:41:571 [AndroidDriver] Enabling Unicode keyboard support
+2019-09-11 04:29:41:572 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell settings get secure default_input_method'
+2019-09-11 04:29:41:787 [AndroidDriver] Unsetting previous IME com.meizu.flyme.input/com.meizu.input.MzInputService
+2019-09-11 04:29:41:788 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-09-11 04:29:41:788 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell ime enable io.appium.settings/.UnicodeIME'
+2019-09-11 04:29:42:323 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell ime set io.appium.settings/.UnicodeIME'
+2019-09-11 04:29:42:897 [ADB] Getting device platform version
+2019-09-11 04:29:42:897 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell getprop ro.build.version.release'
+2019-09-11 04:29:43:072 [ADB] Current device property 'ro.build.version.release': 8.1.0
+2019-09-11 04:29:43:073 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell wm size'
+2019-09-11 04:29:43:570 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell getprop ro.product.model'
+2019-09-11 04:29:43:760 [ADB] Current device property 'ro.product.model': 16 X
+2019-09-11 04:29:43:760 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell getprop ro.product.manufacturer'
+2019-09-11 04:29:43:945 [ADB] Current device property 'ro.product.manufacturer': Meizu
+2019-09-11 04:29:43:946 [AndroidDriver] No app sent in, not parsing package/activity
+2019-09-11 04:29:43:946 [AndroidDriver] No app capability. Assuming it is already on the device
+2019-09-11 04:29:43:947 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-09-11 04:29:43:948 [ADB] Forwarding system: 4501 to device: 4724
+2019-09-11 04:29:43:948 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC forward tcp\:4501 tcp\:4724'
+2019-09-11 04:29:44:072 [UiAutomator] Starting UiAutomator
+2019-09-11 04:29:44:072 [UiAutomator] Moving to state 'starting'
+2019-09-11 04:29:44:072 [UiAutomator] Parsing uiautomator jar
+2019-09-11 04:29:44:073 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-09-11 04:29:44:074 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC push C\:\\Users\\SH\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.7.0\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-09-11 04:29:44:223 [ADB] Attempting to kill all uiautomator processes
+2019-09-11 04:29:44:223 [ADB] Getting all processes with uiautomator
+2019-09-11 04:29:44:224 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell ps'
+2019-09-11 04:29:44:499 [ADB] No 'uiautomator' process has been found
+2019-09-11 04:29:44:499 [UiAutomator] Starting UIAutomator
+2019-09-11 04:29:44:500 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","872QEDTP225BC","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.sina.weibo","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-09-11 04:29:45:092 [UiAutomator] Moving to state 'online'
+2019-09-11 04:29:45:095 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-09-11 04:29:45:100 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-09-11 04:29:45:102 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell dumpsys window'
+2019-09-11 04:29:45:113 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-09-11 04:29:45:325 [AndroidDriver] Screen already unlocked, doing nothing
+2019-09-11 04:29:45:326 [ADB] Device API level: 27
+2019-09-11 04:29:45:327 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell am start -W -n com.sina.weibo/com.sina.weibo.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-09-11 04:29:45:964 [Appium] New AndroidDriver session created successfully, session ca3f7b29-747e-4e72-8d04-6a5975f62283 added to master session list
+2019-09-11 04:29:45:965 [BaseDriver] Event 'newSessionStarted' logged at 1568176185964 (12:29:45 GMT+0800 (GMT+08:00))
+2019-09-11 04:29:45:966 [W3C (ca3f7b29)] Cached the protocol value 'W3C' for the new session ca3f7b29-747e-4e72-8d04-6a5975f62283
+2019-09-11 04:29:45:968 [W3C (ca3f7b29)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"872QEDTP225BC","unicodeKeyboard":true,"deviceName":"872QEDTP225BC","noReset":true,"appPackage":"com.sina.weibo","appActivity":"com.sina.weibo.SplashActivity"},"platformName":"Android","udid":"872QEDTP225BC","unicodeKeyboard":true,"deviceName":"872QEDTP225BC","noReset":true,"appPackage":"com.sina.weibo","appActivity":"com.sina.weibo.SplashActivity","deviceUDID":"872QEDTP225BC","platformVersion":"8.1.0","deviceScreenSize":"1080x2160","deviceModel":"16 X","deviceManufacturer":"Meizu"}}
+2019-09-11 04:29:45:979 [HTTP] <-- POST /wd/hub/session 200 7979 ms - 803
+2019-09-11 04:29:45:980 [HTTP] 
+2019-09-11 04:29:57:130 [HTTP] --> POST /wd/hub/session/ca3f7b29-747e-4e72-8d04-6a5975f62283/element
+2019-09-11 04:29:57:130 [HTTP] {"using":"id","value":"com.sina.weibo:id/titleSave","sessionId":"ca3f7b29-747e-4e72-8d04-6a5975f62283"}
+2019-09-11 04:29:57:134 [W3C (ca3f7b29)] Calling AppiumDriver.findElement() with args: ["id","com.sina.weibo:id/titleSave","ca3f7b29-747e-4e72-8d04-6a5975f62283"]
+2019-09-11 04:29:57:154 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-09-11 04:29:57:155 [BaseDriver] Waiting up to 0 ms for condition
+2019-09-11 04:29:57:157 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sina.weibo:id/titleSave","context":"","multiple":false}}
+2019-09-11 04:29:57:165 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sina.weibo:id/titleSave","context":"","multiple":false}}
+2019-09-11 04:29:57:165 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-09-11 04:29:57:165 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-09-11 04:29:57:166 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.sina.weibo:id/titleSave' using 'ID' with the contextId: '' multiple: false
+2019-09-11 04:29:57:166 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sina.weibo:id/titleSave]
+2019-09-11 04:29:57:196 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-09-11 04:29:57:197 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.sina.weibo:id/titleSave' using 'ID' with the contextId: '' multiple: false
+2019-09-11 04:29:57:198 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sina.weibo:id/titleSave]
+2019-09-11 04:29:57:345 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-09-11 04:29:57:348 [AndroidBootstrap] Received command result from bootstrap
+2019-09-11 04:29:57:348 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-09-11 04:29:57:407 [W3C (ca3f7b29)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2019-09-11 04:29:57:407 [W3C (ca3f7b29)]     at AndroidDriver.helpers.findElOrEls (C:\Users\SH\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-android-driver@4.7.0@appium-android-driver\lib\commands\find.js:75:11)
+2019-09-11 04:29:57:409 [HTTP] <-- POST /wd/hub/session/ca3f7b29-747e-4e72-8d04-6a5975f62283/element 404 278 ms - 441
+2019-09-11 04:29:57:410 [HTTP] 
+2019-09-11 04:34:17:046 [AndroidBootstrap] Emitting alert message...
+2019-09-11 04:34:17:048 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+2019-09-11 04:40:46:091 [Logcat] Logcat terminated with code 1, signal null
+2019-09-11 04:43:17:075 [AndroidBootstrap] Emitting alert message...
+2019-09-11 04:43:17:075 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+2019-09-11 04:44:07:871 [AndroidBootstrap] Emitting alert message...
+2019-09-11 04:44:07:871 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+2019-09-11 06:57:32:280 [UiAutomator] UiAutomator exited unexpectedly with code 0, signal null
+2019-09-11 06:57:32:280 [UiAutomator] Moving to state 'stopped'
+2019-09-11 06:57:32:308 [AndroidDriver] Shutting down Android driver
+2019-09-11 06:57:32:376 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell am force-stop com.sina.weibo'
+2019-09-11 06:57:32:518 [Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+2019-09-11 06:57:32:519 [Appium] Removing session ca3f7b29-747e-4e72-8d04-6a5975f62283 from our master session list
+2019-09-11 06:57:33:527 [ADB] Error sending command, reconnecting device and retrying: shell,am,force-stop,com.sina.weibo
+2019-09-11 06:57:34:726 [ADB] Trying to find a connected android device
+2019-09-11 06:57:34:727 [ADB] Getting connected devices...
+2019-09-11 06:57:35:535 [ADB] 0 device(s) connected
+2019-09-11 06:57:35:536 [ADB] Could not find devices, restarting adb server...
+2019-09-11 06:57:35:536 [ADB] Restarting adb
+2019-09-11 06:57:35:537 [ADB] Killing adb server on port 5037
+2019-09-11 06:57:36:719 [ADB] Getting connected devices...
+2019-09-11 06:57:43:192 [ADB] 1 device(s) connected
+2019-09-11 06:57:43:193 [ADB] Running 'D:\Job\SDK\platform-tools\adb.exe -P 5037 -s 872QEDTP225BC shell am force-stop com.sina.weibo'
+2019-09-11 06:57:44:555 [ADB] Error sending command, reconnecting device and retrying: shell,am,force-stop,com.sina.weibo
+2019-09-11 06:57:45:640 [ADB] Trying to find a connected android device
+2019-09-11 06:57:45:641 [ADB] Getting connected devices...
+2019-09-11 06:57:46:368 [ADB] 1 device(s) connected
