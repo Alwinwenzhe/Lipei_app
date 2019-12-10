@@ -52,14 +52,14 @@ class SinaSendChapterBusiness(object):
         line = self.oe.excel_get_lines()
         j = 0
         for i in range(1,line):   #过滤掉第一行
-            if j < 10:              # 限制数目
+            if j < 9:              # 限制数目
                 title = self.oe.excel_get_cell(i,0)
                 conte = self.oe.excel_get_cell(i,1)
                 content = conte + "\n联系电话(微信)：19981203720"
                 run = self.oe.excel_get_cell(i,3)
                 if run == 'Y':
                     self.send_chapter(title,content)
-                    time.sleep(60)          #增加每条发布时间间隔
+                    time.sleep(12)          #增加每条发布时间间隔，太长了会丢失回话
                     j = +1
 
     def set_input(self):

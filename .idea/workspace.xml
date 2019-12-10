@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="494a5a5e-3dda-4348-be00-ccaf31f344a4" name="Default Changelist" comment="" />
+    <list default="true" id="494a5a5e-3dda-4348-be00-ccaf31f344a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/sina_send_chapter_business.py" beforeDir="false" afterPath="$PROJECT_DIR$/business/sina_send_chapter_business.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tiezi.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/tiezi.xlsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +19,7 @@
     <SUITE FILE_PATH="coverage/Lipei_app$sina_home.coverage" NAME="sina_home Coverage Results" MODIFIED="1558276811424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/Lipei_app$demo.coverage" NAME="demo Coverage Results" MODIFIED="1557822269271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Lipei_app$get_data__2_.coverage" NAME="get_data (2) Coverage Results" MODIFIED="1559807161097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keywords" />
-    <SUITE FILE_PATH="coverage/Lipei_app$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575529601195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lipei_app$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1575971943412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lipei_app$Unittests_for_test_main_TestMain.coverage" NAME="Unittests for test_main.TestMain Coverage Results" MODIFIED="1558174375581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Lipei_app$cmd.coverage" NAME="cmd Coverage Results" MODIFIED="1562565208380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Lipei_app$unit.coverage" NAME="unit Coverage Results" MODIFIED="1567749041139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -58,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="95">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -94,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/business/sina_send_chapter_business.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+            <state relative-caret-position="99">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -115,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/sina_chapter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="703">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -224,16 +228,16 @@
         <option value="$PROJECT_DIR$/config/element.ini" />
         <option value="$PROJECT_DIR$/util/operate_yaml.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/business/sina_send_chapter_business.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/business/sina_send_chapter_business.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="385" />
-    <option name="y" value="265" />
-    <option name="width" value="1667" />
-    <option name="height" value="863" />
+    <option name="x" value="695" />
+    <option name="y" value="226" />
+    <option name="width" value="1360" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -300,7 +304,7 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ysy_inter" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ysy_inter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -365,6 +369,9 @@
       <workItem from="1574756529590" duration="398000" />
       <workItem from="1575513258441" duration="4722000" />
       <workItem from="1575529099361" duration="1835000" />
+      <workItem from="1575531770109" duration="720000" />
+      <workItem from="1575944104979" duration="2614000" />
+      <workItem from="1575968192316" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1558887345414</created>
@@ -423,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20882000" />
+    <option name="totallyTimeSpent" value="27446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,15 +442,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="385" y="265" width="1667" height="863" extended-state="0" />
+    <frame x="695" y="226" width="1360" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6616702" visible="true" weight="0.21966396" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6616702" visible="true" weight="0.28230768" />
       <window_info id="Structure" order="1" sideWeight="0.33832976" side_tool="true" weight="0.13571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30441642" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.54320985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3782542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34532374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,9 +505,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/unit_test.py" />
     <entry file="file://$PROJECT_DIR$/main_test.py" />
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/site-packages/appium/webdriver/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/multiprocessing/process.py" />
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/unittest/suite.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/site-packages/appium/webdriver/__init__.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/multiprocessing/process.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/unittest/suite.py" />
     <entry file="file://$PROJECT_DIR$/util/port.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -518,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/site-packages/appium/webdriver/webdriver.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/site-packages/appium/webdriver/webdriver.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/209985664/time.py" />
     <entry file="file://$PROJECT_DIR$/util/sys_tool.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -534,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/collections/__init__.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/collections/__init__.py" />
     <entry file="file://$PROJECT_DIR$/keywords/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -542,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/idlelib/outwin.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/idlelib/outwin.py" />
     <entry file="file://$PROJECT_DIR$/keywords/get_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -571,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/keywords/kw_run_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -617,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3/Lib/unittest/case.py" />
+    <entry file="file://$USER_HOME$/python3/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/case/demo_sina.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -705,6 +712,16 @@
     <entry file="file://$PROJECT_DIR$/report/report_0.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case/debug.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -733,6 +750,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page/sina_chapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/get_by_locator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -747,34 +771,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/sina_chapter.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="95">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/business/sina_send_chapter_business.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="99">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
     </entry>
