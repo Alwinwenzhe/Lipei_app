@@ -21,3 +21,8 @@ config中可存放配置文件ini，app元素定位文件yaml(每个yaml为一�
  05-23:
     
   PO模式已完成，可通过excel调用测试数据，但是执行完用例后不能自动结束
+  
+  12-26：
+    运行中遇到：UiAutomator exited unexpectedly with code 0, signal null
+    Moving to state 'stopped'
+    实际就是其他程序也调用了adb，冲突引起的，找到对应服务关闭即可

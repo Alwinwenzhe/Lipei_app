@@ -41,7 +41,7 @@ class SinaSendChapterBusiness(object):
         self.sch.save_chapter()
         time.sleep(5)
         self.sch.send_chapter()
-        time.sleep(8)
+        time.sleep(5)
         #self.shh.driver_close()
 
     def circl_send_sina(self):

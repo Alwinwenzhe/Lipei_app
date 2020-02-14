@@ -76,6 +76,7 @@ def get_devices():
 if __name__ == '__main__':
 
     appium_init()     #首先启动appium服务
+
     time.sleep(20)      #appium等待时间
     threads = []
     for i in range (get_devices()):       #这里的多线程被固定为1个了，可以根据device_list来动态调整
