@@ -55,7 +55,7 @@ class SinaSendChapterBusiness(object):
             if j < 9:              # 限制数目
                 title = self.oe.excel_get_cell(i,0)
                 conte = self.oe.excel_get_cell(i,1)
-                content = conte + "\n联系电话(微信)：19981203720"
+                content = conte + "\n联系电话(微信)：19981203720  QQ:1916372047"
                 run = self.oe.excel_get_cell(i,3)
                 if run == 'Y':
                     self.send_chapter(title,content)
