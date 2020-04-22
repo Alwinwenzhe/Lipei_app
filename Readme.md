@@ -22,6 +22,11 @@ config中可存放配置文件ini，app元素定位文件yaml(每个yaml为一�
     
   PO模式已完成，可通过excel调用测试数据，但是执行完用例后不能自动结束
   
+  12-26：
+    运行中遇到：UiAutomator exited unexpectedly with code 0, signal null
+    Moving to state 'stopped'
+    实际就是其他程序也调用了adb，冲突引起的，找到对应服务关闭即可
+  
  2020-04-22：
    
    当新郎微博连续发送5条微博后，第六条提交时，会提示发送频繁---该问题可在运行第5条后，通过执行一定时间段的monkey，每个步骤间隔20s来避免
