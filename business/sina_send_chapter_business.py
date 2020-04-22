@@ -59,7 +59,7 @@ class SinaSendChapterBusiness(object):
                 run = self.oe.excel_get_cell(i,3)
                 if run == 'Y':
                     self.send_chapter(title,content)
-                    time.sleep(60)          #增加每条发布时间间隔
+                    time.sleep(12)          #增加每条发布时间间隔，太长了，会是去连接的
                     j = +1
 
     def set_input(self):
